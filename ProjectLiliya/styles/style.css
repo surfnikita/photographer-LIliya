@@ -9,15 +9,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 .container{
 	
-	height: 2000px;
-	 margin: auto;
+	margin: auto;
+	max-width: 2180px;
+	
 
 	
 }
 .container1{
+	margin: auto;
+	max-width: 2180px;
 	
-	height: 700px;
-	 margin: auto;
+
 	
 	
 }
@@ -52,10 +54,14 @@
 	margin-bottom:40px;
 }
 .side-box{
-	height: 100%;
-	width:20%;
+	min-width: 250px;
+	max-width: 300px;
+	min-height: 1000px;
+	max-height: 100%;
+	
 	
 	float: left;
+	padding-top: 20px;
 
 }
 .side-menu{
@@ -90,37 +96,63 @@ font-size: 20px;
 }
 
 .Liliya{
-
+	
 	float: left;
 	margin-right:10px;
 }
 
 
-
 #lily{
-	padding-top: 10px;
-	width: 80%;
-	margin-left: 40px;
+	
+	
+	
+	
 
 }
 
 .info_obomne{
-	
-	
+	padding-left: 40px;
+	position: relative;
 	margin-right: 10px;
     font-family: 'Caveat', cursive;
     font-family: 'Poiret One', cursive;
-	font-size: 23px;
+	font-size: 25px;
 	padding-top: 10px;
+	display: flex;
+
 }
 
 
 
 
+.contant{
+	padding-top: 20px;
+	max-width: 100%;
+	min-height: 1000px;
+	max-height: 100%;
+	
+	display: flex;
+	
+	flex-wrap: wrap;
 
+}
 
+.contant_obomne{
+	padding-top: 60px;
+	max-width: 100%;
+	min-height: 1000px;
+	max-height: 100%;
+	
+	
+
+}
+.img270x180{
+	width:270px;
+	
+}
 .contant img{
-
+	max-width: 100%;
+	height: auto;
 	border: 2px solid white;
 }
 
@@ -173,12 +205,15 @@ font-size: 20px;
 
 
 .footer{
+	position: relative;
+	
 	margin-top:40px;
 	width:100%;
-	background-color: lightgrey;
+	background-color: #d9d9d9;
 	height: 200px;
 font-family: 'Caveat', cursive;
 	font-family: 'Poiret One', cursive;
+
 }
 
 
@@ -209,8 +244,19 @@ font-family: 'Caveat', cursive;
 
 }
 
+.gellery{
+	width: 100%;
+}
 
+.gellery img{
+	max-width: 45%;
+	height: auto;
+}
 
+#i2{
+	max-width: 60%;
+	height: auto; 
+}
 @media screen  and (max-width: 1100px){
 
 /*.side-box{
@@ -238,9 +284,22 @@ font-family: 'Caveat', cursive;
 	top: 90px;
 	display: flex;	
 	flex-wrap: wrap;
+	justify-content: center;
 
 }
 
+
+.side-box{
+	min-width: 0px;
+	max-width: 300px;
+	min-height: 1000px;
+	max-height: 100%;
+	
+	
+	float: left;
+	padding-top: 20px;
+
+}
 
 
 .side-box2{
