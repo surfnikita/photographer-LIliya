@@ -158,6 +158,8 @@ font-size: 20px;
 
 
 
+
+
 .side-box2{
 position: absolute;
 bottom: 5000px;
@@ -246,12 +248,14 @@ font-family: 'Caveat', cursive;
 
 .gellery{
 	width: 100%;
+	
+
 }
 
 .gellery img{
 	max-width: 45%;
 	height: auto;
-}
+	}
 
 #i2{
 	max-width: 60%;
