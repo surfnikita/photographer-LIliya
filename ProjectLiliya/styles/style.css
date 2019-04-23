@@ -252,6 +252,15 @@ font-family: 'Caveat', cursive;
 
 }
 
+.last1{
+	position: relative;
+	
+}
+.picturebrige{
+	float: left;
+	margin-right:4px;
+
+}
 .gellery img{
 	max-width: 45%;
 	height: auto;
