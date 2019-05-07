@@ -58,10 +58,11 @@
 	max-width: 300px;
 	min-height: 1000px;
 	max-height: 100%;
-	
+	position: relative;
+	top:20px;
 	
 	float: left;
-	padding-top: 20px;
+	
 
 }
 .side-menu{
@@ -140,7 +141,7 @@ font-size: 20px;
 .contant_obomne{
 	padding-top: 60px;
 	max-width: 100%;
-	min-height: 1000px;
+	min-height: 750px;
 	max-height: 100%;
 	
 	
@@ -212,10 +213,10 @@ font-size: 20px;
 	margin-top:40px;
 	width:100%;
 	background-color: #d9d9d9;
-	height: 200px;
-font-family: 'Caveat', cursive;
+	height: 150px;
+	font-family: 'Caveat', cursive;
 	font-family: 'Poiret One', cursive;
-
+	
 }
 
 
@@ -225,7 +226,7 @@ font-family: 'Caveat', cursive;
 	float: right;
 	top: 100px;
 	right: -65px;
-	margin-right:5px;
+	padding-right:5px;
 
 	
 }
@@ -238,7 +239,7 @@ font-family: 'Caveat', cursive;
 .footer p{
 	display: block;
 	position: relative;
-	top: 50px;
+	top: 30px;
 	right: 10px;
 	float: right;
 	font-size: 25px;
@@ -270,6 +271,23 @@ font-family: 'Caveat', cursive;
 	max-width: 60%;
 	height: auto; 
 }
+
+
+.copyrighting p{
+	
+	height:30px;
+	display: inline-block;
+	background-color: #AAAAAA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poiret One', cursive;
+	
+
+}
+
+
+
 @media screen  and (max-width: 1100px){
 
 /*.side-box{
@@ -280,6 +298,9 @@ font-family: 'Caveat', cursive;
 }*/
 .contant_obomne{
 	margin-top:120px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .side-menu li{
@@ -347,9 +368,11 @@ top: 80px;
 }
 
 .info_obomne{
-	
+	float: left;
 	font-size: 30px;
 }
+
+.Liliya{
 
 }
 
@@ -357,4 +380,5 @@ top: 80px;
 	margin-bottom: 150px;
 	clear:both;
 }
+
 
