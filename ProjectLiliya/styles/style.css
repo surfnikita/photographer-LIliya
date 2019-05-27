@@ -161,7 +161,7 @@ body{
 .contant img{
 	max-width: 100%;
 	height: auto;
-	border: 2px solid white;
+	border: 2px solid rgb(13, 13, 13);
 }
 
 
@@ -224,36 +224,30 @@ font-size: 20px;
 	height: 150px;
 	font-family: 'Caveat', cursive;
 	font-family: 'Poiret One', cursive;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	
 }
 
 
 
-.fab {
-	position: relative;
-	float: right;
-	top: 100px;
-	right: -65px;
-	padding-right:5px;
 
-	
-}
-.footer a{
+.footer div a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
-
-
-.footer p{
-	display: block;
+.social{
 	position: relative;
-	top: 30px;
-	right: 10px;
-	float: right;
-	font-size: 25px;
-	line-height: 30px;
-
+	top: 20px;
+	width: 100%;
+	text-align: center;
+	color: white;
 }
+.email_bottom{
+	font-size: 20px;
+}
+
 
 .gellery{
 	width: 100%;
