@@ -301,6 +301,21 @@ font-size: 20px;
 	height: auto;
 }
 
+.news{
+	left:  200px;
+	background-color: yellow;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	margin: 10px;
+	padding: 10px;
+	color: black;
+	font-family: 'Caveat', cursive;
+    font-family: 'Poiret One', cursive;
+	font-size: 25px;
+}
+
 
 @media screen  and (max-width: 1100px){
 
@@ -370,6 +385,7 @@ top: 80px;
 }
 
 
+
 .top-menu{
 	cursor: default;
 	text-align: right;
@@ -386,13 +402,9 @@ top: 80px;
 
 }
 
-.info_obomne{
-	float: left;
-	font-size: 30px;
-}
 
 .Liliya{
-
+	float: left;
 }
 
 .clear{
