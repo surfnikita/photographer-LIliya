@@ -26,24 +26,31 @@ body{
 	max-width: 2180px;
 	
 
-	
+
 	
 }
+.tel{
+	letter-spacing: 2.5px;
+}
+
 .top-menu{
 	
 	
 	cursor: default;
 	text-align: right;
 	margin-right: 5%;
-	padding-top: 30px;
+	padding-top: 20px;
 	font-family: 'Caveat', cursive;
     font-family: 'Poiret One', cursive;
-	font-size: 30px;
+	font-size: 25px;
 	list-style-type: none;
 	
 	
 	
 
+}
+.top-menu li a{
+	color: white;
 }
 .t-m-li-1{
 	position: relative;
